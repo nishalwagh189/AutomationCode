@@ -35,7 +35,7 @@ public class linkedInPost {
         
         // Click on password text box and enter the valid password  Using Locator "ID" session_password and enter password
         WebElement passwordTextBox = driver.findElement(By.id("session_password"));
-        passwordTextBox.sendKeys("Nishal@1896");
+        passwordTextBox.sendKeys("DummyPassword");
         
         // Click on Sign In button Using Locator "XPath" //button[normalize-space(text())='Sign in']
         WebElement signInButton = driver.findElement(By.xpath("//button[normalize-space(text())='Sign in']"));
