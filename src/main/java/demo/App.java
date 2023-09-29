@@ -11,7 +11,8 @@ public class App {
         //amazonSearch search = new amazonSearch();
         //countHyperLinks counts = new countHyperLinks();
         //linkedInPost post = new linkedInPost();
-        imageURL printURL = new imageURL();
+        //imageURL printURL = new imageURL();
+        nestedFrames printText = new nestedFrames();
         
 
         //TODO: call your test case functions one after other here
@@ -19,8 +20,8 @@ public class App {
         //search.amazonSearchResult();
         //counts.countOfLinks();
         //post.postOnLinkedin();
-        printURL.printURLs();
-        
+        //printURL.printURLs();
+        printText.printFrameText();
 
 
         //END Tests
@@ -28,7 +29,8 @@ public class App {
         //search.endTest();
         //counts.endTest();
         //post.endTest();
-        printURL.endTest();
+        //printURL.endTest();
+        printText.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
