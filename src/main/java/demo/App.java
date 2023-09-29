@@ -12,7 +12,8 @@ public class App {
         //countHyperLinks counts = new countHyperLinks();
         //linkedInPost post = new linkedInPost();
         //imageURL printURL = new imageURL();
-        nestedFrames printText = new nestedFrames();
+        //nestedFrames printText = new nestedFrames();
+        IMDBRating ratings = new IMDBRating();
         
 
         //TODO: call your test case functions one after other here
@@ -21,8 +22,8 @@ public class App {
         //counts.countOfLinks();
         //post.postOnLinkedin();
         //printURL.printURLs();
-        printText.printFrameText();
-
+        //printText.printFrameText();
+        ratings.movieRating();
 
         //END Tests
         //tests.endTest(); // End your test by clearning connections and closing browser
@@ -30,7 +31,8 @@ public class App {
         //counts.endTest();
         //post.endTest();
         //printURL.endTest();
-        printText.endTest();
+        //printText.endTest();
+        ratings.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
